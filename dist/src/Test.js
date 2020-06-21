@@ -1,0 +1,9 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Matrix3D_1 = require("./Matrix3D");
+var m1 = new Matrix3D_1.Matrix3D();
+m1.translateX(10);
+m1.translateY(30);
+//transform: translate3d(10px, 30px, 0px);
+console.log(m1.toString());
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiVGVzdC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9UZXN0LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsdUNBQW1DO0FBRW5DLElBQUksRUFBRSxHQUFHLElBQUksbUJBQVEsRUFBRSxDQUFDO0FBQ3hCLEVBQUUsQ0FBQyxVQUFVLENBQUMsRUFBRSxDQUFDLENBQUM7QUFDbEIsRUFBRSxDQUFDLFVBQVUsQ0FBQyxFQUFFLENBQUMsQ0FBQztBQUNsQiwwQ0FBMEM7QUFDMUMsT0FBTyxDQUFDLEdBQUcsQ0FBQyxFQUFFLENBQUMsUUFBUSxFQUFFLENBQUMsQ0FBQSIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7TWF0cml4M0R9IGZyb20gJy4vTWF0cml4M0QnXHJcblxyXG5sZXQgbTEgPSBuZXcgTWF0cml4M0QoKTtcclxubTEudHJhbnNsYXRlWCgxMCk7XHJcbm0xLnRyYW5zbGF0ZVkoMzApO1xyXG4vL3RyYW5zZm9ybTogdHJhbnNsYXRlM2QoMTBweCwgMzBweCwgMHB4KTtcclxuY29uc29sZS5sb2cobTEudG9TdHJpbmcoKSlcclxuIl19

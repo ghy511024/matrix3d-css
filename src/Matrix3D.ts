@@ -3,7 +3,7 @@ const sin = Math.sin
 const tan = Math.tan
 const floor = Math.floor
 const sqrt = Math.sqrt
-const deg2PI = (deg) => Math.PI / 180 * deg
+const deg2PI = (deg:number) => Math.PI / 180 * deg
 
 export class Matrix3D {
     private arr: number[] = [];
@@ -252,7 +252,7 @@ export class Matrix3D {
 
     toString(): string {
         const a = this.arr
-        var out = []
+        let out: number[] = []
         for (var i = 0; i < 4; i++) {
             out = out.concat([a[i], a[i + 4], a[i + 8], a[i + 12]])
         }
